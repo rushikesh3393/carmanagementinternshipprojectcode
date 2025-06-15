@@ -2,6 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Registration from "./Registration";
+import imgone from '../assets/CarBackone.jpg';
+import imgtwo from '../assets/CarBacktwo.jpg';
+import imgthree from '../assets/Carbackthree.jpg';
 
 const Banner = () => {
   return (
@@ -37,21 +40,21 @@ const Banner = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="src\assets\CarBackone.jpg"
+                src={imgone}
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="src\assets\CarBacktwo.jpg"
+                src={imgtwo}
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="src\assets\Carbackthree.jpg"
+                src={imgthree}
                 className="d-block w-100"
                 alt="..."
               />
